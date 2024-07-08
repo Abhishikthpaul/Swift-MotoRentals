@@ -22,6 +22,11 @@ JOIN bikes b ON ba.bike_model_id = b.id;
 
 -- ================== Process of booking ================== --
 
+SELECT * FROM bikes;
+SELECT * FROM users;
+SELECT * FROM location;
+
+
 -- display the list of bikes 
 SELECT model_name from bikes;
 
@@ -124,3 +129,11 @@ VALUES ('James','Johnson',9,'2024-05-07','2024-05-10');
 
 INSERT INTO bookings_user (fname, lname, bikeid, start_date, end_date)
 VALUES ('James','Johnson',9,'2024-05-07','2024-05-10');
+
+
+
+
+
+
+
+
